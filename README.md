@@ -19,7 +19,7 @@ cd AulasDjango
 
 ## Executando o projeto
 ```
-cd env/jornal
+cd jornal
 python manage.py runserver
 ```
 

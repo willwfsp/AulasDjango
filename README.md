@@ -2,9 +2,9 @@
 Repositório destinado aos exercícios da aula de Programação para Web
 
 ## Setup do ambiente
-1 - Instalar Python
-2 - [Instalar pip](http://pip.readthedocs.org/en/stable/installing/)
-3 - Instalar virtualenv
+1. Instalar Python
+2. [Instalar pip](http://pip.readthedocs.org/en/stable/installing/)
+3. Instalar virtualenv
 ```
 pip install virtualenv
 ```

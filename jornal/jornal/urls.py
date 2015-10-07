@@ -10,5 +10,6 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'redacao.views.homepage', name='homepage'),
+    url(r'^edicao/', include('redacao.urls', namespace='redacao')),
 
 )

@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+	{% block content%}
+		<h1>Novo Artigo</h1>
+	{{ form.non_field_errors}}
+	<form action="." method="POST">
+		{% csrf_token%}
+		{{ form.as_p}}
+		<input type="submit" value="Enviar!" class="button">
+	</form>
+	<p><strong><a href="{% url 'homepage' %}">Principal</a></strong>
+{% endblock content%}
